@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
@@ -7,8 +11,7 @@ body{
     color:  #333;
 }
 
-header, section, footer
-{
+header, section, footer{
     margin-bottom: 2rem;
 }
 
@@ -18,3 +21,62 @@ header, section, footer
     padding: 1rem;
     margin-bottom: 1rem;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.text-header{
+    flex: 1;
+}
+
+.profile-picture img{
+    width: 150px;
+    border-radius: 10%;
+}
+
+.resume-button{
+    display: inline-block;
+    background-color: #007bff;;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover{
+    background-color: #0056b3;  
+}
+
+#contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.text-contact{
+    flex: 1;
+}
+
+.contact-button{
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 8%;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #1e7e34;
+  }
